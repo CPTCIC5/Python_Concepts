@@ -13,8 +13,3 @@ Text Type: str.''' #hi
 # //for round off division
 # < greater then  / <= greater then or equal to
 # > lesser then / >= lesser then or equal to
-
-
-n = int(input())
-for i in range(n):
-    print(i*i)

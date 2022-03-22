@@ -1,10 +1,11 @@
+#tuples cannot be changes hence,listed can be modified
+
 #n1=(1,2,3)
 #print(n1[0])
 
 #n2=(5,6,3)
 #x,y,z=n2
 #print(x)
-
 
 '''
 n1=int(input('ENTER NO.'))
@@ -17,7 +18,14 @@ elif  n1 %2 and n1==6 or n1<20:
 else:
     print("Not Weird")'''
 
+'''
 n = [4,334,34,42]
 for i in n:
     print(i*i,end=',')
 print(100*1.1**7)
+
+'''
+
+x1=('xyz','aya','feefj')
+x2=x1.index('xyz')
+print(x2)

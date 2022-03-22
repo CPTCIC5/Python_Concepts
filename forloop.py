@@ -12,3 +12,11 @@ for items in list:
 n1=['aryan','op','xyz']
 for p1 in n1:
     print(p1,end="&")
+
+for i in range(11):
+    if i==10:
+        print("DOne")
+        break
+    else:
+        print(i)
+        continue
