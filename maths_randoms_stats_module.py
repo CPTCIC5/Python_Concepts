@@ -10,8 +10,6 @@ print(math.pow(5,2)) #pow == power , 5 raise to the power 2 i.e 5x5 == 25
 '''
 
 '''
-import random
-
 x1=random.random()
 print(x1)
 x2=random.choices()
@@ -22,3 +20,6 @@ x1=[1,2,4,1,51,514,14,1]
 print(statistics.mean(x1)) 
 print(statistics.stdev(x1))
 print(statistics.variance(x1))
+
+import random
+random.randint(0,9)
