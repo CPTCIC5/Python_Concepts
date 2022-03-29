@@ -11,7 +11,10 @@ with open("phonebook.csv","a") as e:
 
 with open('phonebook.csv','r') as file:
     reader=csv.reader(file)
+<<<<<<< HEAD
     next(reader)
+=======
+>>>>>>> test
     #csv_reader=csv.DictReader(file)
     for row in reader:
         print(row)
