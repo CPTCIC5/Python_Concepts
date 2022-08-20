@@ -15,4 +15,3 @@ mycursor.execute("INSERT INTO Worker(ecode,name,design,plevel,doj,dob) VALUES (%
 (11,"Radhe Shyam","Supervisor","POO1","2004-Sept-13","1981-Aug-23"),(12,"Chander Nath","Operator","P003","2010-Feb-22","1987-Jul-12"),(13,"Fizza","Operator","POO3","2009-Jun-14"),
 (15,"Ameen Ahmed","Mechanic","POO2","2006-Aug-21","1984-Mar-13"),(18,"Sanya","Clerk","P002","2005-Dec-19","1983-Jun-09"))
 db.commit()
-

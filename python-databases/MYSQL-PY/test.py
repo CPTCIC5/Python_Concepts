@@ -19,3 +19,4 @@ mycursor = db.cursor() # to curse/preview make/change stuff inside a db
 mycursor.execute("SELECT * FROM Person")
 for x1 in mycursor:
     print(x1)
+
