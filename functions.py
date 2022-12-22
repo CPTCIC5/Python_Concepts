@@ -52,3 +52,21 @@ optional_para()
 def no_of_greet(name,total_greeting=5):
     print(name* total_greeting)
 no_of_greet('Aryan ')
+
+
+
+"""
+def avg(*args):
+    total=0
+    print(args)
+    for i in args:
+        total+=i
+        print('avg is',total/len(args))
+
+avg(10,22,12,34)
+"""
+
+def name(**name):
+    print("Hello",name['fname'],name['mname'],name['lname'])
+
+name(mname='xyz',lname='Jain',fname='Aryan')
