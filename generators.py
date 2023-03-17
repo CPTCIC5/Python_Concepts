@@ -40,3 +40,44 @@ x = range(1,11)
 
 print(next(iter(x)))
 print(next(iter(x)))
+
+
+
+"""
+xyz='aryan'
+xyz2=iter(xyz)
+
+print(xyz2.__next__())
+print(xyz2.__next__())
+
+
+def gen(n):
+    for i in range(n):
+        yield i
+
+x=gen(10)
+#print(x.__next__())
+
+#for i in x:
+#    print(i)
+"""
+
+
+"""
+def factorial(n):
+    if n<1:
+        return 1
+    fact=n*factorial(n-1)
+    yield fact
+#cant be generated as it's a int value
+gen = factorial(5)
+gen =(iter(gen))
+#print(gen.__next__())
+"""
+
+def fibonacci(n):
+    if n<=1:
+        return 1
+    else:
+        fn=fibonacci(n-1)+fibonacci(n-2)
+        yield fn
