@@ -1,4 +1,3 @@
-"""
 birthdays = {'Alice': 'Apr 1', 'Bob': 'Dec 12', 'Carol': 'Mar 4'}
 while True:
     print('Enter a name:(blank to quit)')
@@ -13,7 +12,6 @@ while True:
         birthdays[name]=bday
         print('Birthday database updated.')
         break
-"""
 
 #QUESTIONS
 #1.{}
@@ -27,8 +25,3 @@ while True:
 # if key-value pair is find(it searches key) but cat just mean key-value pair inside <varname>
 #6 same as q5 but for values not keys 
 #7.spam.setdefault('color', 'black')
-
-
-ham = {'species': 'cat', 'age': '8', 'name': 'Zophie'}
-
-print(ham.get('xyz'))

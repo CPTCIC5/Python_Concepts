@@ -23,5 +23,3 @@ print('MyABCnameABCisABCSimon'.split('ABC'))
 #8.['Remember','remember','the fifth of November.'],There-can-be-only-one
 #9.l-just,r-just,center
 #10 strip
-
-x1=['a','b','c']

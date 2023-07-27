@@ -1,0 +1,6 @@
+database is the whole container
+
+tables r like classes (same as Classes in py)
+tables contain 2 things:-
+1.Column-The structure (ex- in db School,at table students,name no etc will be the column)
+2.Rows-New submission/Data/POST/CREATED(entry,(it is stored within the column format))

@@ -1,20 +1,3 @@
-
-
-#operators
-'''
-+
--
-**
-/
-//
-'''
-
-#expression
-#print(2)
-#operator
-#print(2+2)
-
-
 '''
 print(2 ** 3)
 print(22 % 8)
@@ -35,15 +18,12 @@ print('Alice '+ 5)
 '''
 
 '''
-assignment statements
 spam=42
 spam="Hello"
 print(spam)
 spam2=15
 print(15+spam2)
 '''
-
-
 
 
 '''
@@ -72,6 +52,3 @@ print(float(10) == int(10.0))
 #can't make int a var
 #int(),float(),str()
 #cuz 99 (a int) cant be added with str 
-
-# 42 == "42" False
-# 42 == 42.00 and 0042.00 True (strings are considered dif while int and floats arent)

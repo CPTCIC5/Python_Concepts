@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+Django
+=======
+xyzxyz
+>>>>>>> 952269c (cute)

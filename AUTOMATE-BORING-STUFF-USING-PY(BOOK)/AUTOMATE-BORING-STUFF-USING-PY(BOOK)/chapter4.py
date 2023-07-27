@@ -72,5 +72,5 @@ list('hello')
 #11..remove('value'),.pop(),del
 #12.can be sliced,can be fetched via []
 #13.Tuples r immutable/values cant be changed,lists r mutable /val can be changed 
-#14.tuple(42)b
+#14.tuple(42)
 #15.
